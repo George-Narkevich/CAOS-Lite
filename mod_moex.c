@@ -13,7 +13,7 @@
 
 #define API_HOST "iss.moex.com"
 #define API_PORT 80
-#define UPDATE_INTERVAL 5000 /* 5 seconds */
+#define UPDATE_INTERVAL 5000
 
 static struct task_struct *update_thread;
 static char *stock_data;
